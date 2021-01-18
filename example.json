@@ -1,0 +1,54 @@
+{
+  "title": "Example Sports",
+  "icon": null,
+  "description": "",
+  "display": {
+    "type": "text"
+  },
+  "template": {
+    "1": "some value"
+  },
+  "files": [],
+  "data": [
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_8ball.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/billiards.jpg",
+      "name": "Billiards"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_basketball.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/basketball.jpg",
+      "name": "Basketball"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_football.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/football.jpg",
+      "name": "Football"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_golf.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/golf.jpg",
+      "name": "Golf"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_raquet.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/racket.jpg",
+      "name": "Racket"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_shuttlecock.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/badminton.jpg",
+      "name": "Badminton"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_soccer.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/soccer.jpg",
+      "name": "Soccer"
+    },
+    {
+      "icon": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports-silk/sport_tennis.png",
+      "image": "https://pipe.miroware.io/5e1ae2a9b6cc6e75d075670d/abstract-editor/sports/tennis.jpg",
+      "name": "Tennis"
+    }
+  ]
+}
