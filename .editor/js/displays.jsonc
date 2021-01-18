@@ -1,0 +1,113 @@
+{
+  // these would effect the root element in some way, but do not involve new elements
+  "column": {
+    "name": "Column"
+  },
+  "row": {
+    "name": "Row"
+  },
+  "grid": {
+    "name": "Grid"
+  },
+  // these are used for displaying data in a more complex way
+  // they may make use of the above displays or switch between them
+  // it can be assumed that any items/cards belonging to the below displays will be dictated by them
+  "text": {
+    "name": "Plain Text",
+    "comments": [
+      "Like a txt file",
+      "Used for some file types like txt"
+    ]
+  },
+  "page": {
+    "name": "Page",
+    "comments": [
+      "Like a wiki page",
+      "Will likely use markdown",
+      "Markdown is best when the code itself is editable with syntax highlighting",
+      "The rendered markdown itself doesn't have to be editable for that, just the code"
+    ]
+  },
+  "code": {
+    "name": "Code",
+    "comments": [
+      "Editable Code",
+      "Preferably would have syntax highlighting"
+    ]
+  },
+  "table": {
+    "name": "Table"
+  },
+  "list": {
+    "name": "List",
+    "comments": [
+      "There are many different kinds of lists...",
+      "The kind of list thats used in note cards are different",
+      "As are bullet point, ordered, checkbox, etc",
+      "You should be able to control the columns, their labels, the use of images and their size, etc"
+    ]
+  },
+  "drawers": {
+    "name": "Drawers",
+    "comments": [
+      "Drawers don't describe how their contents are displayed, only the mechanics of opening and closing"
+    ]
+  },
+  "tree": {
+    "name": "tree",
+    "comments": [
+      "Like a file tree, or collapsible list"
+    ]
+  },
+  "properties": {
+    "name": "Properties",
+    "comments": [
+      "Interactive & Fully editable GUI for JSON, YAML, etc. data",
+      "Used for many side views, usually for json editing",
+      "Should be able to do anything json can and better than the normal json editor gui"
+    ]
+  },
+  "notes": {
+    "name": "Notes"
+  },
+  "tierlist": {
+    "name": "Tier List"
+  },
+  "gallery": {
+    "name": "Gallery"
+  },
+  "board": {
+    "name": "Board"
+  },
+  "timeline": {
+    "name": "Timeline"
+  },
+  // these are a source of confusion, but I'm figuring it out
+  "confused": {
+    "card": {
+      "name": "Card",
+      "values": ["image", "title", "content", "tags"],
+      "comments": [
+        "All values are optional and display toggleable",
+        "Should be able to have multiple display modes: grid and list",
+        "User ordered, so expected data is likely an array of objects"
+      ]
+    },
+    "dynamic": {
+      "name": "Dynamic",
+      "comments": [
+        "Dynamically generated item html/css",
+        "Like discord embeds, but more powerful?"
+      ]
+    },
+    "table": {
+      "name": "Table",
+      "comments": [
+        "Table is different from a spreadsheet"
+      ]
+    },
+    "spreadsheet": {
+      "name": "Spreadsheet"
+    }
+  }
+}
