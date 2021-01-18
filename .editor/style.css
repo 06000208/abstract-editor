@@ -1,0 +1,35 @@
+/* Color Palette */
+
+:root {
+  --background-color: #eee;
+  --background-color-secondary: #ddd;
+  --background-color-tertiary: #ccc;
+  --background-color-highlight: #d8e4f2;
+  --background-color-highlight-hover: #cadaed;
+  --text-color: #111;
+  --text-color-secondary: #555;
+  --text-color-highlight: #026FEB;
+  --text-color-highlight-hover: #024899;
+  --text-color-warn: #d6a803;
+  --text-color-warn-hover: #a17f03;
+  --text-color-disabled: #888;
+  --border-color: #888;
+}
+
+/* Variables */
+
+:root {
+  --font-size: 16px;
+  --background-color-code: var(--background-color-secondary);
+  --background-color-table-odd: unset;
+  --background-color-table-even: var(--background-color-secondary);
+  --text-color-anchor: var(--text-color-highlight);
+  --text-color-anchor-hover: var(--text-color-highlight-hover);
+  --normal-list-margin: 1.5em;
+  --standard-text-margin: 1em;
+  --standard-small-spacing: 0.5em;
+  --standard-tiny-spacing: 2px;
+  --standard-padding: 6px;
+  --standard-rounding: 4px;
+  --standard-border: 1px solid var(--border-color);
+}

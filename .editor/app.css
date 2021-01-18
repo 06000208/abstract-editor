@@ -1,0 +1,144 @@
+#header {
+  background-color: var(--background-color-secondary);
+  border-bottom: var(--standard-border);
+}
+
+#left-tabs {
+  border-right: var(--standard-border);
+}
+
+#header-menu {
+  padding: var(--standard-padding);
+}
+
+#right-tabs {
+  border-left: var(--standard-border);
+}
+
+#left {
+  background-color: var(--background-color-secondary);
+  border-right: var(--standard-border);
+}
+
+#right {
+  background-color: var(--background-color-secondary);
+  border-left: var(--standard-border);
+}
+
+#left>div, #right>div {
+  padding: var(--standard-padding);
+}
+
+/* Experimental */
+
+#breadcrumbs {
+  border-bottom: var(--standard-border);
+}
+
+/* Header buttons using ionicons */
+
+.ion-container {
+  padding: var(--standard-padding);
+}
+
+.ion {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-right: var(--standard-padding);
+  padding: unset;
+  border: none;
+  background: unset;
+  cursor: pointer;
+  transition: 0.4s;
+}
+
+.ion-container .ion:last-child {
+  margin: unset;
+}
+
+.ion span {
+  display: block;
+  padding: unset;
+  margin: unset;
+  width: 32px;
+  height: 32px;
+  background-color: var(--text-color-secondary);
+  transition: 0.2s;
+}
+
+.ion:focus, .ion:active {
+  box-shadow: none;
+  outline: none;
+  /* the active state needs some kind of focus indicator, via .ion.active:focus span {} */
+}
+
+.ion:focus span, .ion:hover span {
+  background-color: var(--text-color);
+}
+
+.ion.active span {
+  background-color: var(--text-color-highlight);
+}
+
+.ion.active:hover span {
+  background-color: var(--text-color-highlight-hover);
+}
+
+.ion:disabled {
+  cursor: default;
+}
+
+.ion:disabled span {
+  background-color: var(--text-color-disabled);
+}
+
+.ion-container .ion:last-child {
+  margin-right: unset;
+}
+
+/* Ion Masks */
+
+#tab-file-explorer span {
+  mask: url("assets/ionicons/folder-open-outline.svg") center no-repeat;
+}
+
+#tab-item-explorer span {
+  mask: url("assets/ionicons/documents-outline.svg") center no-repeat;
+}
+
+#tab-tags span {
+  mask: url("assets/ionicons/pricetags-outline.svg") center no-repeat;
+}
+
+#tab-search span {
+  mask: url("assets/ionicons/search-outline.svg") center no-repeat;
+}
+
+#tab-history span {
+  mask: url("assets/ionicons/time-outline.svg") center no-repeat;
+}
+
+#tab-settings span {
+  mask: url("assets/ionicons/settings-outline.svg") center no-repeat;
+}
+
+#toggle-code-view span {
+  mask: url("assets/ionicons/code-slash-outline.svg") center no-repeat;
+}
+
+#tab-item-info span {
+  mask: url("assets/ionicons/document-text-outline.svg") center no-repeat;
+}
+
+#tab-selected-info span {
+  mask: url("assets/ionicons/list-outline.svg") center no-repeat;
+}
+
+#tab-related-items span {
+  mask: url("assets/ionicons/leaf-outline.svg") center no-repeat;
+}
+
+/* mask: url("assets/ionicons/grid-outline.svg") center no-repeat; */
+
+/* mask: url("assets/custom-ionicons/column.svg") center no-repeat; */

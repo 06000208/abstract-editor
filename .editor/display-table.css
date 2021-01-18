@@ -1,0 +1,136 @@
+.table {
+  display: flex;
+  flex-direction: column;
+}
+
+.table *, .table * .cell {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.table .item.selected {
+  background-color: var(--background-color-highlight);
+
+}
+
+.table .item:hover.selected {
+  background-color: var(--background-color-highlight-hover);
+}
+
+.table .item:hover {
+  background-color: var(--background-color-table-even);
+}
+
+.table .header {
+  border-bottom: 1px solid var(--border-color);
+}
+
+.table .header .cell:not(:first-child) {
+  border-left: 1px solid var(--border-color);
+}
+
+.table * .cell {
+  padding: var(--standard-padding);
+}
+
+.table * .cell {
+  flex-grow: 1;
+  flex-shrink: 0;
+  flex-basis: 0;
+}
+
+/* .table .item .cell {
+  cursor: grab;
+}
+
+.table .item.grabbed .cell, .table .item .cell:focus, .table .item .cell:active {
+  cursor: grabbing;
+}
+
+.table * .cell * {
+  cursor: initial;
+} */
+
+/* Item Cell Children Auto Margin */
+
+.table * .cell * {
+  margin-right: var(--standard-padding);
+}
+
+.table * .cell *:last-child {
+  margin-right: unset;  
+}
+
+/* Icon */
+
+.table * .icon {
+  display: inline-block;
+  padding: unset;
+  min-width: 1em;
+  min-height: 1em;
+  max-width: 4em;
+  max-height: 4em;
+}
+
+/* Controls */
+
+/* .table * .cell.controls {
+  justify-content: flex-end;
+}
+
+.table .item .controls div, .table .item .controls div div {
+  display: inline-block;
+  padding: unset;
+  width: 1em;
+  height: 1em;
+}
+
+.table .item:hover .controls div div {
+  background-color: var(--text-color-secondary);
+}
+
+.table .item:hover .controls div:hover div {
+  background-color: var(--text-color);
+}
+
+.table .item .controls .select {
+  cursor: pointer;
+}
+
+.table .item .controls .select div {
+  mask: url("assets/ionicons/radio-button-off-outline.svg") center no-repeat;
+}
+
+.table .item .controls .select.selected div {
+  background-color: var(--text-color-secondary);
+  mask: url("assets/ionicons/radio-button-on-outline.svg") center no-repeat;
+}
+
+.table .item .controls .move {
+  cursor: s-resize;
+}
+
+.table .item .controls .move div {
+  mask: url("assets/custom-ionicons/move-dots.svg") center no-repeat;
+}
+
+.table .item .controls .remove {
+  cursor: pointer;
+}
+
+.table .item .controls .remove div {
+  mask: url("assets/ionicons/close.svg") center no-repeat;
+  mask-size: 1.5em 1.5em;
+} */
+
+/* input {
+  color: inherit;
+  border: none;
+  background-image: none;
+  background-color: transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+} */
