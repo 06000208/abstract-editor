@@ -1,10 +1,10 @@
 # abstract-editor
 
-An offline [web application](https://en.wikipedia.org/wiki/Web_application) for editing abstract data.
+An offline [web application](https://en.wikipedia.org/wiki/Web_application) for editing abstract data, with the goal of providing an intuitive graphical editor befitting that data, as well as features such as the ability to edit the raw text, search, tags, edit history, and so on.
 
-The goal is to provide an intuitive graphical interface for visually editing data of any nature, primarily data stored via [JSON](https://en.wikipedia.org/wiki/JSON), while retaining the ability to edit the raw text and providing features such as search, tags, edit history, and so on.
+Data stored via [JSON](https://en.wikipedia.org/wiki/JSON) will likely work best due to this being a web application, with [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) and [YAML](https://en.wikipedia.org/wiki/YAML) close behind. Similar file types will be likely see implementation as well.
 
-Whether it can achieve that is another matter, and presently, it's in a highly experimental initial development.
+Whether it can achieve all that is another matter, and presently, it's in a highly experimental initial development, with the [/demos/](/demos/) folder containing various mockups and demos.
 
 By "data of any nature", I mean data like...
 
@@ -40,12 +40,12 @@ It draws inspiration from many things, mainly:
 
 ### Silk Icons
 
-Some of mark james' wonderful [silk icons](http://www.famfamfam.com/lab/icons/silk/) are located in the `.editor/assets/silkicons` directory, and are used as examples of 16x16 icons. Full credit to mark james for their creation, and they can be obtained from famfamfam.com at the following page:
+Some of mark james' wonderful [silk icons](http://www.famfamfam.com/lab/icons/silk/) are located in the `demos/initial/.editor/assets/silkicons` directory, and are used as examples of 16x16 icons. Full credit to mark james for their creation, and they can be obtained from famfamfam.com at the following page:
 
-- http://www.famfamfam.com/lab/icons/silk/
+http://www.famfamfam.com/lab/icons/silk/
 
 ### IonIcons
 
-This project makes use of the SVG vector images from [IonIcons](https://ionicons.com/), as well as customizing them to suit it's needs. They can be found under `.editor/assets/ionicons` and `.editor/assets/custom-ionicons` respectively, accompanied by [Ionic Team](https://github.com/ionic-team)'s MIT License.
+This project makes use of the SVG vector images from [IonIcons](https://ionicons.com/), as well as customizing them to suit it's needs. They can be found under `demos/initial/.editor/assets/ionicons` and `.editor/assets/custom-ionicons` respectively, accompanied by [Ionic Team](https://github.com/ionic-team)'s MIT License.
 
-- https://ionicons.com/
+https://ionicons.com/
