@@ -4,7 +4,7 @@ An offline [web application](https://en.wikipedia.org/wiki/Web_application) for 
 
 The goal is to act as an intuitive graphical editor befitting data of any nature, while retaining the ability to edit the raw text and providing features such as search, edit history, tags/categories, and so on.
 
-Abstract editor intends to accomplish part of what it does by implementing a wide range of different layouts, all of which with full editor functionality. Such as a basic page, table, list, gallery, [tree view](https://en.wikipedia.org/wiki/Tree_view), [kanban board](https://en.wikipedia.org/wiki/Kanban_board), and so on. Even one for [tier lists](https://en.wikipedia.org/wiki/Tier_list).
+Abstract editor intends to accomplish part of what it does by implementing a wide range of different graphical layouts, all with full editor functionality. Such as a basic page, table, list, gallery, [tree view](https://en.wikipedia.org/wiki/Tree_view), [kanban board](https://en.wikipedia.org/wiki/Kanban_board), and so on. Even one for [tier lists](https://en.wikipedia.org/wiki/Tier_list).
 
 Data stored via [JSON](https://en.wikipedia.org/wiki/JSON) will likely work best due to this being a web application, with [CSV](https://en.wikipedia.org/wiki/Comma-separated_values) and [YAML](https://en.wikipedia.org/wiki/YAML) close behind. Similar file types will be likely see implementation as well.
 
@@ -25,7 +25,7 @@ By "data of any nature", I mean data such as...
 - Notes and todo lists
 - References and citations
 - Config files
-- None of the above & things I don't know about
+- None of the above & things unknown
 
 Abstract editor draws inspiration from many things, mainly:
 
@@ -50,6 +50,6 @@ http://www.famfamfam.com/lab/icons/silk/
 
 ### IonIcons
 
-This project makes use of the SVG vector images from [IonIcons](https://ionicons.com/), as well as customizing them to suit it's needs. They can be found under `/demos/initial/.editor/assets/ionicons` and `.editor/assets/custom-ionicons` respectively, accompanied by [Ionic Team](https://github.com/ionic-team)'s MIT License.
+This project makes use of the SVG vector images from [IonIcons](https://ionicons.com/), as well as customizing them to suit it's needs. They can be found under `/demos/initial/.editor/assets/ionicons` and `/demos/initial/.editor/assets/custom-ionicons` respectively, accompanied by [Ionic Team](https://github.com/ionic-team)'s MIT License.
 
 https://ionicons.com/
