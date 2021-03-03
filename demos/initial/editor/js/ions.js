@@ -20,7 +20,7 @@ function updatePage() {
   const container = document.getElementById(tabs.getAttribute("data-container"));
   // currently supports multiple panels, was used by an older version, may be used in the future
   const panels = this.hasAttribute("data-panels") ? this.getAttribute("data-panels").split(" ").map(id => document.getElementById(id)) : [];
-  console.debug(`${this.id} (${tabs.id}) clicked for ${container.id} navigation`);
+  console.debug(`${this.id} (${tabs.id}) clicked for ${this.getAttribute("data-panels")} (${container.id}) navigation`);
 
   // if tab is already active, hide the sidebar
   if (this.classList.contains("active")) {
