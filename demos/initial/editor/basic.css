@@ -30,6 +30,12 @@ body {
   font-family: arial, sans-serif;
 }
 
+/* Fix the hidden attribute being overrode by any display */
+
+[hidden] { display: none !important; }
+
+/* Margins */
+
 p, ul, ol, table, h1, h2, h3, h4, h5, h6 {
   margin-bottom: var(--standard-text-margin);
   margin-top: var(--standard-text-margin);
