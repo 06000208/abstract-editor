@@ -1,0 +1,45 @@
+body, #header, #header>div, #main, #left, #center, #right {
+  display: flex;
+}
+
+#main, #center, #center>div, #left>div, #right>div {
+  flex-grow: 1
+}
+
+body, #left, #center, #right {
+  flex-direction: column;
+}
+
+#header, #header>div, #main {
+  flex-direction: row;
+}
+
+#header {
+  align-items: center;
+  justify-content: left;
+}
+
+#left {
+  justify-content: left;
+}
+
+#right {
+  justify-content: right;
+}
+
+#main {
+  overflow-x: auto;
+  /* Main's height is not actually 100px, as it's controlled by body's flexbox column. */
+  /* This is a hack to make children of main use vertical scroll properly */
+  /* A scroll for the whole page will start if the user makes their browser small enough */
+  height: 100px;
+}
+
+#left, #display, #right {
+  min-width: 250px;
+  overflow-y: auto;
+}
+
+#left, #right {
+  max-width: 250px;
+}

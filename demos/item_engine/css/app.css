@@ -1,0 +1,86 @@
+#header {
+  background-color: var(--background-color-secondary);
+  border-bottom: var(--standard-border);
+}
+
+#header>div {
+  border-right: var(--standard-border);
+}
+
+#header>div:last-child {
+  border-right: none;
+}
+
+#left, #right {
+  background-color: var(--background-color-secondary);
+}
+
+#left {
+  border-right: var(--standard-border);
+}
+
+#right {
+  border-left: var(--standard-border);
+}
+
+#left>div.active~div.active{
+  border-top: var(--standard-border);
+}
+
+#header>div, #left>div, #right>div, #display {
+  padding: var(--standard-padding);
+}
+
+#header>div * {
+  margin-right: var(--standard-padding);
+}
+#header>div *:last-child {
+  margin-right: unset;
+}
+
+/* buttons */
+
+a.button {
+  cursor: pointer;
+  user-select: none;
+}
+
+a.button.disabled {
+  cursor: default;
+  text-decoration: none;
+  color: var(--text-color-disabled);
+}
+
+a.toggle {
+  color: var(--text-color);
+  transition: 0.2s;
+}
+
+a.toggle:focus, a.toggle:hover {
+  color: var(--text-color-hover);
+}
+
+a.toggle.active {
+  color: var(--text-color-active);
+}
+
+a.toggle.active:hover {
+  color: var(--text-color-active-hover);
+}
+
+a.toggle.disabled {
+  color: var(--text-color-disabled);
+}
+
+/* code view */
+
+#json {
+  display: block;
+  border: none;
+  background-color: transparent;
+  width: 100%;
+  height: 100%;
+  resize: none;
+  padding: var(--standard-padding);
+  font-family: "Consolas",monospace;
+}
